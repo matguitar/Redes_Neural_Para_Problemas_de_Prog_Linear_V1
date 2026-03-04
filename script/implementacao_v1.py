@@ -15,8 +15,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from scipy import stats
 import matplotlib.pyplot as plt
 
-# Adicione este bloco no início do seu código
-SEED = 42  # Um número inteiro qualquer. 42 é uma convenção comum.
+SEED = 42 
 
 np.random.seed(SEED)
 torch.manual_seed(SEED)
@@ -136,7 +135,7 @@ mae = mean_absolute_error(saidas_reais, previsoes_modelo)
 print(f"Erro Quadrático Médio (MSE): {mse:.4f}")
 print(f"Erro Absoluto Médio (MAE): {mae:.4f}")
 
-# --- PARTE II: TESTE ESTATÍSTICO PARA AS DIFERENÇAS ENTRE RESULTADOS VIA PULP E VIA REDE NEURAÇ ---
+# --- PARTE II: TESTE ESTATÍSTICO PARA AS DIFERENÇAS ENTRE RESULTADOS VIA PULP E VIA REDE NEURAL ---
 
 print("Gerando 600 novos problemas para a validação estatística...")
 dados_teste = gerar_dados(num_amostras=600)       
