@@ -19,7 +19,7 @@ Este projeto propõe uma rede neural para aprender a aproximar a solução ótim
 * Atuar como um solucionador rápido, ideal para aplicações que exigem respostas em tempo real.
 
 ### 2.3 Descrição Matemática
-Dado o vetor de entrada $[c_{1}, c_{2}, a_{1}, a_{2}, a_{3}, a_{4}, b_{1}, b_{2}]$, o modelo busca prever a solução $[x_{1}^{*}, x_{2}^{*}]$ para:
+Dado o vetor de entrada $[c_{1}, c_{2}, a_{1}, a_{2}, a_{3}, a_{4}, b_{1}, b_{2}]$, o modelo busca prever a solução $[x_{1}^{\*}, x_{2}^{\*}]$ para:
 
 **Maximizar:**
 $$c_{1}x_{1} + c_{2}x_{2}$$
